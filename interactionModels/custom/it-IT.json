@@ -1,0 +1,123 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "l\u0027 oroscopo di bianco mat",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "ciao",
+            "come stai",
+            "dì ciao",
+            "salutami",
+            "salutarmi"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "OroscopoIntent",
+          "slots": [
+            {
+              "name": "zodiacSign",
+              "type": "ZODIACSIGN"
+            }
+          ],
+          "samples": [
+            "come va il {zodiacSign}",
+            "{zodiacSign}",
+            "qual è l\u0027oroscopo per il {zodiacSign}",
+            "leggimi l\u0027oroscopo del {zodiacSign}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "pesci"
+              }
+            },
+            {
+              "name": {
+                "value": "acquario"
+              }
+            },
+            {
+              "name": {
+                "value": "capricorno"
+              }
+            },
+            {
+              "name": {
+                "value": "sagittario"
+              }
+            },
+            {
+              "name": {
+                "value": "scorpione"
+              }
+            },
+            {
+              "name": {
+                "value": "bilancia"
+              }
+            },
+            {
+              "name": {
+                "value": "vergine"
+              }
+            },
+            {
+              "name": {
+                "value": "leone"
+              }
+            },
+            {
+              "name": {
+                "value": "cancro"
+              }
+            },
+            {
+              "name": {
+                "value": "gemelli"
+              }
+            },
+            {
+              "name": {
+                "value": "toro"
+              }
+            },
+            {
+              "name": {
+                "value": "ariete"
+              }
+            }
+          ],
+          "name": "ZODIACSIGN"
+        }
+      ]
+    }
+  },
+  "version": "9"
+}
